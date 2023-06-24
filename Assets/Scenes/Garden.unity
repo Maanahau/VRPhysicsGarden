@@ -1206,12 +1206,13 @@ GameObject:
   - component: {fileID: 46767160}
   - component: {fileID: 46767159}
   - component: {fileID: 46767158}
+  - component: {fileID: 46767161}
   m_Layer: 0
   m_Name: Debris (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &46767157
 Transform:
@@ -1221,7 +1222,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46767156}
   m_LocalRotation: {x: -0.7707869, y: 0.074707545, z: 0.34544653, w: 0.53006905}
-  m_LocalPosition: {x: -4.5899997, y: 9.37, z: -3.64}
+  m_LocalPosition: {x: -4.5900006, y: 9.37, z: -3.639998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1292,6 +1293,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46767156}
   m_Mesh: {fileID: -9188728115170210297, guid: 0173669199686644d8958c7fd430b737, type: 3}
+--- !u!95 &46767161
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46767156}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c143f58946e28f042972c12553c9c090, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &49781236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5463,12 +5484,13 @@ GameObject:
   - component: {fileID: 193495389}
   - component: {fileID: 193495388}
   - component: {fileID: 193495387}
+  - component: {fileID: 193495390}
   m_Layer: 0
   m_Name: Debris3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &193495386
 Transform:
@@ -5549,6 +5571,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193495385}
   m_Mesh: {fileID: -6467886940791980265, guid: 0173669199686644d8958c7fd430b737, type: 3}
+--- !u!95 &193495390
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193495385}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b5877ae9cfe2cda428c31f6c0f7a817d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &196375989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10104,12 +10146,13 @@ GameObject:
   - component: {fileID: 337198423}
   - component: {fileID: 337198422}
   - component: {fileID: 337198421}
+  - component: {fileID: 337198424}
   m_Layer: 0
   m_Name: Debris (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &337198420
 Transform:
@@ -10190,6 +10233,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337198419}
   m_Mesh: {fileID: -9188728115170210297, guid: 0173669199686644d8958c7fd430b737, type: 3}
+--- !u!95 &337198424
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337198419}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0e924cf31b7823c4090f9a75c27e7578, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &346559386
 GameObject:
   m_ObjectHideFlags: 0
@@ -31144,12 +31207,13 @@ GameObject:
   - component: {fileID: 1050354575}
   - component: {fileID: 1050354574}
   - component: {fileID: 1050354573}
+  - component: {fileID: 1050354576}
   m_Layer: 0
   m_Name: Debris3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1050354572
 Transform:
@@ -31230,6 +31294,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050354571}
   m_Mesh: {fileID: -6467886940791980265, guid: 0173669199686644d8958c7fd430b737, type: 3}
+--- !u!95 &1050354576
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050354571}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ac980d2be5ce21549b967d527753a1c5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1055442026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59155,12 +59239,13 @@ GameObject:
   - component: {fileID: 1901520565}
   - component: {fileID: 1901520564}
   - component: {fileID: 1901520563}
+  - component: {fileID: 1901520566}
   m_Layer: 0
   m_Name: Debris2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1901520562
 Transform:
@@ -59241,6 +59326,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901520561}
   m_Mesh: {fileID: -7387866890241856180, guid: 0173669199686644d8958c7fd430b737, type: 3}
+--- !u!95 &1901520566
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901520561}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d95be726baf543d43ab35684410d4125, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1901817205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69833,6 +69938,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 667562913940903159, guid: dc753bc8d78b48c4b892bce215ecdb53,
+        type: 3}
+      propertyPath: playerCamera
+      value: 
+      objectReference: {fileID: 939789269908898194}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc753bc8d78b48c4b892bce215ecdb53, type: 3}
 --- !u!4 &8931128745222894967 stripped

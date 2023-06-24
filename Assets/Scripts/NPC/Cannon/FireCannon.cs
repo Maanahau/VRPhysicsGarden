@@ -9,11 +9,15 @@ public class FireCannon : MonoBehaviour
     [SerializeField] private Transform barrelTransform;
     [SerializeField] private AudioClip explosionSound;
     private GameObject projectile;
-    
+
+    private void Start()
+    {
+        newtonValue = 0;
+    }
 
     public void Fire()
     {
-        if(projectile != null)
+        if(projectile != null && newtonValue > 0)
         {
             Vector3 force = barrelTransform.forward * newtonValue;
             projectile.GetComponent<Rigidbody>().AddForce(force, ForceMode.Impulse);

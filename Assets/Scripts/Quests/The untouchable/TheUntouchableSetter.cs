@@ -15,7 +15,7 @@ namespace QuestGivenData
 
             gameObject.transform.localScale = new Vector3(cubeSide, cubeSide, cubeSide);
             GetComponent<Rigidbody>().mass = mass;
-            density = mass / volume;
+            density = (float) System.Math.Round(mass / volume, 2);
 
             //value stored inside datacard
             value = density;

@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class ToggleActive : MonoBehaviour
 {
- 
     [SerializeField] UnityEvent onSetActive;
     [SerializeField] UnityEvent onSetInactive;
 
@@ -13,13 +13,13 @@ public class ToggleActive : MonoBehaviour
     {
         if (target.activeInHierarchy)
         {
-            target.SetActive(false);
             onSetInactive.Invoke();
+            target.SetActive(false);
         }
         else
         {
-            target.SetActive(true);
             onSetActive.Invoke();
+            target.SetActive(true);
         }
     }
 }

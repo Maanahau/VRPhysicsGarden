@@ -854,6 +854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05150a7abf0ba444fbfc85ea9054ac85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  formulaSocket: {fileID: 2633675272429533625}
   valueSocket1: {fileID: 2633675272195857892}
   valueSocket2: {fileID: 3579077654231265108}
   valueSocket3: {fileID: 4315033418022988629}
@@ -1214,6 +1215,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2633675271768138047}
+  - component: {fileID: 960297920}
+  - component: {fileID: 960297921}
   m_Layer: 0
   m_Name: Computer
   m_TagString: Untagged
@@ -1244,6 +1247,117 @@ Transform:
   m_Father: {fileID: 2633675271784351399}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -30, y: 0, z: 0}
+--- !u!82 &960297920
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633675271768138046}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &960297921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633675271768138046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e360fcffb97274787603c8e0fd4cf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  formulaSocket: {fileID: 2633675272429533631}
+  outputSocket: {fileID: 2633675272963711814}
+  wrongAnswer: {fileID: 8300000, guid: b7cfd04a39e4d424dbe5b2a1bcbbcdc8, type: 3}
 --- !u!1 &2633675271784351393
 GameObject:
   m_ObjectHideFlags: 0
@@ -1850,58 +1964,6 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2633675271044199074}
-        m_TargetAssemblyTypeName: ReferenceProvider, Assembly-CSharp
-        m_MethodName: RemoveSocketSelections
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2633675272195857898}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.XRSocketInteractor,
-            Unity.XR.Interaction.Toolkit
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2633675271044199074}
-        m_TargetAssemblyTypeName: ReferenceProvider, Assembly-CSharp
-        m_MethodName: RemoveSocketSelections
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 5621957495559065279}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.XRSocketInteractor,
-            Unity.XR.Interaction.Toolkit
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2633675271044199074}
-        m_TargetAssemblyTypeName: ReferenceProvider, Assembly-CSharp
-        m_MethodName: RemoveSocketSelections
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 4608210607038242457}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.XRSocketInteractor,
-            Unity.XR.Interaction.Toolkit
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2633675271044199074}
-        m_TargetAssemblyTypeName: ReferenceProvider, Assembly-CSharp
-        m_MethodName: RemoveSocketSelections
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 6744638507793511613}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.XRSocketInteractor,
-            Unity.XR.Interaction.Toolkit
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3660,13 +3722,13 @@ PrefabInstance:
     - target: {fileID: 5343910482948203208, guid: fe4b6fcba407da4469746acec1546b2a,
         type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5343910482948203208, guid: fe4b6fcba407da4469746acec1546b2a,
         type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2633675271083313331}
+      objectReference: {fileID: 960297921}
     - target: {fileID: 5343910482948203208, guid: fe4b6fcba407da4469746acec1546b2a,
         type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -3680,7 +3742,7 @@ PrefabInstance:
     - target: {fileID: 5343910482948203208, guid: fe4b6fcba407da4469746acec1546b2a,
         type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ToggleActive, Assembly-CSharp
+      value: ComputerOpener, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5343910482948203208, guid: fe4b6fcba407da4469746acec1546b2a,
         type: 3}
@@ -3691,11 +3753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 2633675271768138046}
+      objectReference: {fileID: 0}
     - target: {fileID: 5343910482948203208, guid: fe4b6fcba407da4469746acec1546b2a,
         type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5648993709869248746, guid: fe4b6fcba407da4469746acec1546b2a,
         type: 3}
@@ -3715,126 +3777,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2633675272165663710}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &7703952991690560308 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5648993709869248746, guid: fe4b6fcba407da4469746acec1546b2a,
-    type: 3}
-  m_PrefabInstance: {fileID: 2633675272165663710}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2633675271083313331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7703952991690560308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf2a44e207a828439f381fed5d368b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onSetActive:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2633675272429533625}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 2633675272963711808}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  onSetInactive:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2633675272429533625}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2633675272195857892}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 3579077654231265108}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 4315033418022988629}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 6012304001102459035}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2633675272963711808}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &2633675272666822916
 PrefabInstance:
   m_ObjectHideFlags: 0
