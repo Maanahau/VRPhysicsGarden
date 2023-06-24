@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: QuestData_it
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: 3e84407cf3e7eda4fbe728d6ab29592b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 77072003072
+    m_Localized: Hello World!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199075917824
+    m_Localized: Introduzione al programma d'addestramento!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7971117924679680
+    m_Localized: Una questione di massa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7971228943712256
+    m_Localized: Usa il tuo nuovo strumento per misurare la massa del campione, poi
+      consegna la datacard al bot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11569077766942720
+    m_Localized: "Impara ad usare il computer per elaborare i dati in tuo possesso.\nCalcola
+      la densit\xE0 del cubo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11569045474996224
+    m_Localized: "Pi\xF9 cubi, pi\xF9 dati"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18457610213146624
+    m_Localized: L'intoccabile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18457670103613440
+    m_Localized: Trova un modo per determinare il volume del cubo... senza toccare
+      il cubo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23818236858662912
+    m_Localized: Sport alternativi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23818471756464128
+    m_Localized: Data l'accelerazione iniziale della palla di cannone, fai canestro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30000957861527552
+    m_Localized: We All Lift Together
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30001103131246592
+    m_Localized: Conoscendo il valore della forza vincolare, calcola l'energia necessaria
+      a sollevare il cubo all'altezza specificata.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

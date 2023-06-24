@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Quests - A matter of mass_it
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: fe9a76bf13eb2dc4493735254075914a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1670605766656
+    m_Localized: "\xC8 arrivato il momento di imparare ad utilizzare il tuo nuovo
+      strumento."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1987565125632
+    m_Localized: Aggancia lo strumento ad uno dei tuoi controller con i tasti GRIP,
+      poi tieni premuto il grilletto per azionarlo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8809403449344
+    m_Localized: "Punta il laser verso l'oggetto di cui vuoi misurare la massa. Il
+      valore apparir\xE0 sul display."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13441353711616
+    m_Localized: Premendo il tasto viola potrai registrare il valore misurato all'interno
+      di una datacard.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14373634244608
+    m_Localized: Le datacard sono strumenti utili a trasferire valori numerici. Ti
+      saranno utili durante l'intero addestramento.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29094370410496
+    m_Localized: Massa cubo?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 340927857885184
+    m_Localized: Una volta misurata la massa del cubo, inserisci la datacard in questo
+      lettore per completare la quest.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

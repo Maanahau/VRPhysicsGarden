@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Quest - Alternative Sports Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Quest - Alternative Sports
+  m_TableCollectionNameGuidString: 5308c530ab76a614e8c3d98db438b37e
+  m_Entries:
+  - m_Id: 40657682432
+    m_Key: Initial Acceleration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13638310232064
+    m_Key: Cannon Force?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19721170911232
+    m_Key: Start1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19984992632832
+    m_Key: Start2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20582802587648
+    m_Key: Start3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21238082895872
+    m_Key: Start4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21548956319744
+    m_Key: Start5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21739188977664
+    m_Key: Start6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22265972588544
+    m_Key: Start7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22584043438080
+    m_Key: Start8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22752386023424
+    m_Key: End1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22985291530240
+    m_Key: End2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387124551680000
+    m_Key: End3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387390999035904
+    m_Key: End4
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6642588912171876358
+  references:
+    version: 2
+    RefIds:
+    - rid: 6642588912171876358
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1684589143531

@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Quests - More cubes more data_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 9915d3b0333130b42b4b07befd0edb81, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 88754450432
+    m_Localized: Hello.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233206280192
+    m_Localized: Things will get a bit more difficult from now on.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462043312128
+    m_Localized: I've put a cube into the cart. I want to know its density.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 743753740288
+    m_Localized: You will have to calculate it from mass and volume of the cube.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1123845763072
+    m_Localized: You will need the help of your assistant to compute values.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22849455484928
+    m_Localized: Press my red button. The computer will show up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23148232536064
+    m_Localized: There's a bunch of datacard slots. Let's start from those on the
+      left.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23357142429696
+    m_Localized: The green slot is dedicated to datacards containing formulas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27559302361088
+    m_Localized: You can recognize them from their green color.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28067249352704
+    m_Localized: You will obtain these datacards through your training, and they
+      will always be available from your inventory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33205171089408
+    m_Localized: The red slot is the output slot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33648576131072
+    m_Localized: This is where you will obtain the datacards containing any value
+      calculated by the computer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34178249617408
+    m_Localized: The purple slots on the lower side are the input slots, which will
+      stay active only when needed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34417287196672
+    m_Localized: These are where you will have to insert the datacards containing
+      the variables needed to compute the formula.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35734348984320
+    m_Localized: Putting more than a single datacard in the same slot will calculate
+      the average between all the values.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36257693265920
+    m_Localized: This will be useful when you will want to be more precise with your
+      measurements.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36550942224384
+    m_Localized: A stored value can always be zeroed by pressing the X button on
+      the active input slot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37248509505536
+    m_Localized: Let's try it out. My colleague will give you your first formula
+      datacard.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682460797825024
+    m_Localized: Check your inventory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682574459269120
+    m_Localized: You now have the density datacard in the datacards section.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683019579781120
+    m_Localized: You can use it whenever you want.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683159845695488
+    m_Localized: Once you put the datacard inside the computer, you might get stuck
+      on the formula choice.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683500830027776
+    m_Localized: To help you figure it out, there's now new information available
+      in the info section of your menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683803126099968
+    m_Localized: One last thing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701288281894912
+    m_Localized: Sometimes you will need to solve problems using data provided by
+      datacard generators like this one beside me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702050844110848
+    m_Localized: You will get a datacard containing the indicated value by pressing
+      the button.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704579204116480
+    m_Localized: Cube side
+    m_Metadata:
+      m_Items: []
+  - m_Id: 719828099624960
+    m_Localized: Density?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1372634624126976
+    m_Localized: Great. That's it with me, for now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1375249059639296
+    m_Localized: You're free to talk to the other bots around the garden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1375443545321472
+    m_Localized: Some of them might not give you a quest immediately.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1375641331920896
+    m_Localized: When that happens, it means you have other quests to complete before
+      interacting with them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1375872861696000
+    m_Localized: Oh, by the way, here's your reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7210390985916416
+    m_Localized: You can use it to generate objects as you like.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7210701720928256
+    m_Localized: Have fun.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18448846229209088
+    m_Localized: You're not yet ready.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18449027519610880
+    m_Localized: You should talk with my colleague near the fence first.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Concepts Text_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 53342d4689eb9d0488b90b7c1d1ace19, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1116203741184
+    m_Localized: "Volume is a measure of the amount of tridimensional space occupied
+      by a body.\nThe International System of Unit adopted the cubic meter as its
+      unit (m\xB3).\nHere are the formulas to calculate the volume of the solids
+      that you will encounter through your training "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4714870435840
+    m_Localized: "Cube volume.\n    = side of the cube."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107797028864
+    m_Localized: "Sphere volume.\n    = radius of the sphere."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8780736458752
+    m_Localized: "Density indicates the amount of mass inside 1 cubic meter of a
+      substance.\nIt is defined as mass divided by volume.\nIts measurement unit
+      is kilogram per cubic meter (Kg/m\xB3)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10525939257769984
+    m_Localized: 'First Newton''s law
+
+
+      An object will remain in its state
+      of rest or uniform motion, if not influenced by an external force.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10527434241933312
+    m_Localized: 'Second Newton''s law
+
+
+      The interaction of a body with the
+      surrounding environment is expressed by the force, which determines its acceleration.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10528536505024512
+    m_Localized: 'Third Newton''s law
+
+
+      Each applied force has a corresponding
+      force of equal modulus and opposite direction.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18124672323420160
+    m_Localized: 'Since weight is a conservative force, it is possible to determine
+      its work without considering the path followed by the object on which it is
+      applied. It follows that it is possible to define a gravitational potential
+      energy, which is directly proportional to the mass of the object and the height
+      at which it is located. '
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

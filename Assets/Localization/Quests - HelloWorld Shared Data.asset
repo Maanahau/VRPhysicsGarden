@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Quests - HelloWorld Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Quests - HelloWorld
+  m_TableCollectionNameGuidString: 46aa267e1ae935348b11aed10df26f26
+  m_Entries:
+  - m_Id: 279862180409344
+    m_Key: Touch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329867532529664
+    m_Key: NoQuests -NothingToTellYou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1636681064771584
+    m_Key: Hello
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1636943196188672
+    m_Key: WelcomeToTheGarden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1637164714160128
+    m_Key: ThisIsWhere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1638047833255936
+    m_Key: Iam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1639808442691584
+    m_Key: PleaseFollowMe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1774369092792320
+    m_Key: 'ThisIsOneOfMyColleagues
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1774819825283072
+    m_Key: It will help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1776193560506368
+    m_Key: Feel free to look around. When you're ready to start a new quest, press
+      my green button.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2427538896068608
+    m_Key: insufficientRequirements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6770237888069632
+    m_Key: ThisGardenIsWhere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6770976437895168
+    m_Key: IHaveAGift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6775110725599232
+    m_Key: AfterChestOpening1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8673411263692800
+    m_Key: AfterChestOpening2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8673925518917632
+    m_Key: AfterChestOpening3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8674723506225152
+    m_Key: AfterChestOpening4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8675221504327680
+    m_Key: AfterChestOpening5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8675686078021632
+    m_Key: AfterChestOpening6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8675978387456000
+    m_Key: AfterChestOpening7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8677683766296576
+    m_Key: NotYetReady
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9307367344504832
+    m_Key: Completion0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9307576782880768
+    m_Key: Completion1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9307815761739776
+    m_Key: Completion2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9308837028626432
+    m_Key: Completion3
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7488735524638687234
+  references:
+    version: 2
+    RefIds:
+    - rid: 7488735524638687234
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1678744888734

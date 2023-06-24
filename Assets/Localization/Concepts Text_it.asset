@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Concepts Text_it
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: 53342d4689eb9d0488b90b7c1d1ace19, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1116203741184
+    m_Localized: "Il volume misura lo spazio tridimensionale occupato da un corpo.\nL'unit\xE0
+      di misura adottata dal Sistema Internazionale \xE8 il metro cubo (m\xB3).\nEcco
+      le formule per calcolare il volume dei solidi che incontrerai durante l'addestramento."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4714870435840
+    m_Localized: "Volume del cubo.\n     = lato del cubo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107797028864
+    m_Localized: "Volume della sfera.\n     = raggio della sfera."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8780736458752
+    m_Localized: "La densit\xE0 \xE8 il rapporto tra massa e Volume di una sostanza.
+      \nEssa rappresenta la quantit\xE0 massa all'interno di un metro cubo di materiale.\nLa
+      sua unit\xE0 di misura \xE8 il chilogrammo su metro cubo (Kg/m\xB3)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10525939257769984
+    m_Localized: "Prima legge di Newton\n\nUn corpo non soggetto a forze non subisce
+      variazioni di velocit\xE0, rimanendo nel suo stato di quiete o moto rettilineo
+      uniforme."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10527434241933312
+    m_Localized: 'Seconda legge di Newton
+
+
+      L''interazione di un corpo con
+      l''ambiente circostante, espressa tramite la forza, la quale determina la sua
+      accelerazione.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10528536505024512
+    m_Localized: 'Terza legge di Newton
+
+
+      Ad ogni forza applicata corrisponde
+      una forza di modulo uguale e verso opposto.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18124672323420160
+    m_Localized: "Essendo la forza peso una forza conservativa, \xE8 possibile calcolarne
+      il lavoro prescindendo dalla traiettoria percorsa dall'oggetto su cui \xE8
+      applicata.\nDa ci\xF2 ne deriva che \xE8 possibile definire un'energia potenziale
+      gravitazionale, direttamente proporzionale alla massa dell'oggetto e all'altezza
+      a cui si trova."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

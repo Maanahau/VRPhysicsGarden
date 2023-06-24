@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Quest - We All Lift Together_it
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: a917f38c98344174ab381cf55cea7e2a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 12763398144
+    m_Localized: Energia necessaria?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5290380623872
+    m_Localized: Mi serve aiuto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8178599329792
+    m_Localized: Devo sollevare quel cubo nell'ascensore per esattamente nessuno
+      motivo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8796076376064
+    m_Localized: L'ascensore ha bisogno di sapere quanta energia deve utilizzare
+      per poter funzionare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9206950395904
+    m_Localized: "Per calcolare l'energia necessaria a sollevare il carico, ti fornir\xF2
+      due nuove datacard."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9554138103808
+    m_Localized: Una contiene la formula per calcolare l'energia potenziale gravitazionale.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9941851176960
+    m_Localized: L'altra contiene la costante di accelerazione gravitazionale terrestre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10586314375168
+    m_Localized: Ah, comunque... non conosco la massa del cubo, ma conosco il valore
+      della forza peso.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11231457050624
+    m_Localized: Vedi di fartela bastare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 623649526775808
+    m_Localized: Altezza a cui sollevare il carico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 624119909580800
+    m_Localized: Forza peso applicata sul carico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636060078047232
+    m_Localized: "Sono state anche aggiunte nuove informazioni riguardanti l'energia
+      potenziale gravitazionale nel tuo men\xF9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636471300194304
+    m_Localized: Ora mettiti all'opera.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692175121809408
+    m_Localized: Bel lavoro!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692249117720576
+    m_Localized: hmm... Non so cosa darti come premio...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692428843646976
+    m_Localized: "Quindi non ti dar\xF2 niente!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692611488808960
+    m_Localized: Anzi, posso darti un indizio...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692750190247936
+    m_Localized: "C'\xE8 un modo per salire su questa torre fluttuante."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692939747622912
+    m_Localized: Devi solo utilizzare gli strumenti a tua disposizione.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 693174733504512
+    m_Localized: Tutto qui, alla prossima.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697585224515584
+    m_Localized: Dovresti prima dare un'occhiata alle leggi di Newton.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698482176425984
+    m_Localized: "Cerca un bot a forma di cannone, ti aiuter\xE0 lui."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

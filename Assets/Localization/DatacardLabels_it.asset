@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: DatacardLabels_it
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: 8ee3be08e1368a147b5848b48504a567, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 4933820416
+    m_Localized: Angolo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21620271095808
+    m_Localized: Coeff. attrito statico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23216623198208
+    m_Localized: Attrito statico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5126208406487040
+    m_Localized: Massa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8681436344053760
+    m_Localized: "Densit\xE0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8683630355116032
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8686937291190272
+    m_Localized: Raggio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8705750124556288
+    m_Localized: Lato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19949024264089600
+    m_Localized: Forza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19949061798916096
+    m_Localized: Accelerazione
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21378461547560960
+    m_Localized: Leggi della dinamica di Newton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27166061690486784
+    m_Localized: Lunghezza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27166885623758848
+    m_Localized: Energia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27170516930527232
+    m_Localized: Energia potenziale gravitazionale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27174052703633408
+    m_Localized: Accelerazione gravitazionale
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

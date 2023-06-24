@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Quest - We All Lift Together Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Quest - We All Lift Together
+  m_TableCollectionNameGuidString: a917f38c98344174ab381cf55cea7e2a
+  m_Entries:
+  - m_Id: 12763398144
+    m_Key: Energy?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5290380623872
+    m_Key: start1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8178599329792
+    m_Key: start2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8796076376064
+    m_Key: start3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9206950395904
+    m_Key: start4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9554138103808
+    m_Key: start5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9941851176960
+    m_Key: start6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10586314375168
+    m_Key: start7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11231457050624
+    m_Key: start8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 623649526775808
+    m_Key: TargetHeight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 624119909580800
+    m_Key: WeightForce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636060078047232
+    m_Key: start9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636471300194304
+    m_Key: start10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692175121809408
+    m_Key: end0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692249117720576
+    m_Key: end1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692428843646976
+    m_Key: end2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692611488808960
+    m_Key: end3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692750190247936
+    m_Key: end4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692939747622912
+    m_Key: end5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 693174733504512
+    m_Key: end6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697585224515584
+    m_Key: notyet0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698482176425984
+    m_Key: notyet1
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6264053132735021066
+  references:
+    version: 2
+    RefIds:
+    - rid: 6264053132735021066
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1686069701014

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: HubMenu_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 8280a9e78c30a334f97a83bbafca4066, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1464187056128
+    m_Localized: New Profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2704086233088
+    m_Localized: Load Profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8670345261056
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9005755363328
+    m_Localized: Enter name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10843112173568
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11029720952832
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12801344630784
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45759627620352
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46439000010752
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47467011338240
+    m_Localized: Are you sure?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1027110782726144
+    m_Localized: Name already used
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1031980319338496
+    m_Localized: Name can't be empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1038666157355008
+    m_Localized: Load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1074081069363200
+    m_Localized: Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1076134718042112
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

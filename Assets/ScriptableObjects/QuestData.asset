@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aa7a5c4395869141b2da160d1327276, type: 3}
+  m_Name: QuestData
+  m_EditorClassIdentifier: 
+  entries:
+  - questName:
+      m_TableReference:
+        m_TableCollectionName: GUID:3e84407cf3e7eda4fbe728d6ab29592b
+      m_TableEntryReference:
+        m_KeyId: 77072003072
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    description:
+      m_TableReference:
+        m_TableCollectionName: GUID:3e84407cf3e7eda4fbe728d6ab29592b
+      m_TableEntryReference:
+        m_KeyId: 199075917824
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  - questName:
+      m_TableReference:
+        m_TableCollectionName: GUID:3e84407cf3e7eda4fbe728d6ab29592b
+      m_TableEntryReference:
+        m_KeyId: 7971117924679680
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    description:
+      m_TableReference:
+        m_TableCollectionName: GUID:3e84407cf3e7eda4fbe728d6ab29592b
+      m_TableEntryReference:
+        m_KeyId: 7971228943712256
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  - questName:
+      m_TableReference:
+        m_TableCollectionName: GUID:3e84407cf3e7eda4fbe728d6ab29592b
+      m_TableEntryReference:
+        m_KeyId: 11569045474996224
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    description:
+      m_TableReference:
+        m_TableCollectionName: GUID:3e84407cf3e7eda4fbe728d6ab29592b
+      m_TableEntryReference:
+        m_KeyId: 11569077766942720
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  - questName:
+      m_TableReference:
+        m_TableCollectionName: GUID:3e84407cf3e7eda4fbe728d6ab29592b
+      m_TableEntryReference:
+        m_KeyId: 18457610213146624
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    description:
+      m_TableReference:
+        m_TableCollectionName: GUID:3e84407cf3e7eda4fbe728d6ab29592b
+      m_TableEntryReference:
+        m_KeyId: 18457670103613440
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  - questName:
+      m_TableReference:
+        m_TableCollectionName: GUID:3e84407cf3e7eda4fbe728d6ab29592b
+      m_TableEntryReference:
+        m_KeyId: 23818236858662912
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    description:
+      m_TableReference:
+        m_TableCollectionName: GUID:3e84407cf3e7eda4fbe728d6ab29592b
+      m_TableEntryReference:
+        m_KeyId: 23818471756464128
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  - questName:
+      m_TableReference:
+        m_TableCollectionName: GUID:3e84407cf3e7eda4fbe728d6ab29592b
+      m_TableEntryReference:
+        m_KeyId: 30000957861527552
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    description:
+      m_TableReference:
+        m_TableCollectionName: GUID:3e84407cf3e7eda4fbe728d6ab29592b
+      m_TableEntryReference:
+        m_KeyId: 30001103131246592
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

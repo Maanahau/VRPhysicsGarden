@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Quests - More cubes more data_it
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: 9915d3b0333130b42b4b07befd0edb81, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 88754450432
+    m_Localized: Salve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233206280192
+    m_Localized: "Da qui in poi le cose si faranno pi\xF9 complicate."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462043312128
+    m_Localized: "Ho messo un cubo nel carretto. Voglio conoscere la sua densit\xE0."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 743753740288
+    m_Localized: Dovrai calcolarla a partire da massa e volume del cubo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1123845763072
+    m_Localized: Per calcolare valori avrai bisogno dell'aiuto del tuo assistente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22849455484928
+    m_Localized: "Premi il mio bottone rosso. Si aprir\xE0 il computer."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23148232536064
+    m_Localized: Ci sono diversi slot per le datacard, cominciamo da quelli a sinistra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23357142429696
+    m_Localized: "Lo slot verde \xE8 dedicato alle datacard contenenti formule."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27559302361088
+    m_Localized: Puoi riconoscere queste datacard dal loro colore verde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28067249352704
+    m_Localized: Tali datacard ti verranno fornite nel corso del tuo addestramento
+      e avrai sempre accesso ad esse dal tuo inventario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33205171089408
+    m_Localized: "Lo slot rosso \xE8 lo slot di output."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33648576131072
+    m_Localized: Da qui otterrai le datacard contenenti i valori calcolati dal computer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34178249617408
+    m_Localized: Gli slot viola in basso, invece, sono gli slot di input, che saranno
+      attivi solo quando necessario.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34417287196672
+    m_Localized: In tali slot dovrai inserire le datacard contenenti la variabile
+      richiesta per poter effettuare il calcolo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35734348984320
+    m_Localized: "Inserire pi\xF9 datacard nello stesso slot di input calcoler\xE0
+      la media tra tutti i valori inseriti."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36257693265920
+    m_Localized: "Questo sar\xE0 utile quando vorrai effettuare pi\xF9 misurazioni
+      per ottenere un risultato pi\xF9 preciso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36550942224384
+    m_Localized: "Il valore immagazzinato in uno slot di input attivo pu\xF2 essere
+      sempre azzerato cliccando la X sullo slot."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37248509505536
+    m_Localized: "Ora non resta che testarlo. Il mio collega ti fornir\xE0 la tua
+      prima datacard formula."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682460797825024
+    m_Localized: Controlla il tuo inventario.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682574459269120
+    m_Localized: "Nella sezione datacard hai ora a disposizione la datacard formula
+      per la densit\xE0."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683019579781120
+    m_Localized: Puoi usarla quando vuoi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683159845695488
+    m_Localized: Una volta inserita la datacard potresti rimanere bloccato sulla
+      scelta della formula da utilizzare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683500830027776
+    m_Localized: "Per aiutarti a capire cosa fare, sono state aggiunte nuove informazioni
+      nella sezione info del tuo men\xF9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683803126099968
+    m_Localized: Un'ultima cosa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701288281894912
+    m_Localized: "Durante l'addestramento ti capiter\xE0 di dover risolvere problemi
+      utilizzando valori forniti da generatori di datacard come questo qui affianco."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702050844110848
+    m_Localized: "Ti baster\xE0 premere il tasto sul generatore per ottenere una
+      datacard contenente il valore indicato."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704579204116480
+    m_Localized: Lato cubo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 719828099624960
+    m_Localized: "Densit\xE0?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1372634624126976
+    m_Localized: Ottimo. Con me hai finito per il momento.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1375249059639296
+    m_Localized: Ora sei libero di parlare agli altri bot sparsi per il giardino.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1375443545321472
+    m_Localized: "Alcuni per\xF2 potrebbero non darti subito una quest."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1375641331920896
+    m_Localized: "Quando ci\xF2 accade, significa che hai altre quest da completare
+      prima di poter interagire con loro."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1375872861696000
+    m_Localized: Oh, quasi dimenticavo, ecco il tuo premio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7210390985916416
+    m_Localized: Puoi usarlo per generare oggetti a piacimento.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7210701720928256
+    m_Localized: Divertiti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18448846229209088
+    m_Localized: Non sei ancora pronto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18449027519610880
+    m_Localized: Dovresti prima parlare con il mio collega vicino alla staccionata.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

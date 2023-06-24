@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: QuestData_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 3e84407cf3e7eda4fbe728d6ab29592b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 77072003072
+    m_Localized: Hello World!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199075917824
+    m_Localized: Introduction to the training program!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7971117924679680
+    m_Localized: A matter of mass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7971228943712256
+    m_Localized: Use your new tool to measure the sample's mass, then give the datacard
+      to the bot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11569077766942720
+    m_Localized: 'Learn how to compute data using the computer.
+
+      Find the cube''s
+      density.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11569045474996224
+    m_Localized: More cubes, more data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18457610213146624
+    m_Localized: The untouchable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18457670103613440
+    m_Localized: Find a way to determine the volume of the cube... without touching
+      the cube.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23818236858662912
+    m_Localized: Alternative sports
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23818471756464128
+    m_Localized: Given the initial acceleration of the cannon ball, score a point.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30000957861527552
+    m_Localized: We All Lift Together
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30001103131246592
+    m_Localized: Knowing the value of the ground reaction force, determine the amount
+      of energy needed to lift the cube at the given height.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: DatacardLabels Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: DatacardLabels
+  m_TableCollectionNameGuidString: 8ee3be08e1368a147b5848b48504a567
+  m_Entries:
+  - m_Id: 4933820416
+    m_Key: Angle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21620271095808
+    m_Key: StaticFrictionCoefficient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23216623198208
+    m_Key: StaticFriction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5126208406487040
+    m_Key: Mass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8681436344053760
+    m_Key: Density
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8683630355116032
+    m_Key: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8686937291190272
+    m_Key: Radius
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8705750124556288
+    m_Key: Side
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19949024264089600
+    m_Key: Force
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19949061798916096
+    m_Key: Acceleration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21378461547560960
+    m_Key: NewtonsLaws
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27166061690486784
+    m_Key: Length
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27166885623758848
+    m_Key: Energy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27170516930527232
+    m_Key: GravEnergy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27174052703633408
+    m_Key: GravAcceleration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29269948908044288
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7488735747096444942
+  references:
+    version: 2
+    RefIds:
+    - rid: 7488735747096444942
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1679586488459
