@@ -16,6 +16,9 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] UnityEvent onSequenceStart;
     [SerializeField] UnityEvent onSequenceEnd;
 
+    [SerializeField] GameObject questMarker;
+    private bool wasQuestMarkerActive;
+
 
     private DialogueSequence playingSequence;
     private int sequenceIndex;
@@ -35,6 +38,7 @@ public class DialogueManager : MonoBehaviour
         beepCoroutine = StartCoroutine(PlayBeepSound());
         if(!ignoreEvents)
             onSequenceStart.Invoke();
+        CheckQuestMarkerOnStart();
     }
 
     public void StartSequenceIgnoreEvents(DialogueSequence sequence)
@@ -58,9 +62,30 @@ public class DialogueManager : MonoBehaviour
             gameObject.SetActive(false);
             playingSequence = null;
             if (!ignoreEvents)
+            {
                 onSequenceEnd.Invoke();
+            }
             else
+            {
                 ignoreEvents = false;
+            }
+            CheckQuestMarkerOnEnd();
+        }
+    }
+
+    private void CheckQuestMarkerOnStart()
+    {
+        if(questMarker != null && !QuestGiver.isQuestActive)
+        {
+            questMarker.transform.parent.GetComponent<QuestGiver>().disableMarker = true;
+        }
+    }
+
+    private void CheckQuestMarkerOnEnd()
+    {
+        if (questMarker != null && !QuestGiver.isQuestActive)
+        {
+            questMarker.transform.parent.GetComponent<QuestGiver>().disableMarker = false;
         }
     }
 

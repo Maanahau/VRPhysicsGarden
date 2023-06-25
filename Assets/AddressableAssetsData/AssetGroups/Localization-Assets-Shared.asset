@@ -73,6 +73,10 @@ MonoBehaviour:
     m_Address: Assets/Localization/Quest - We All Lift Together Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 2a479264e9c1a7f4091ff398875fdb85
+    m_Address: Assets/Localization/Misc Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: f041d85c8297db8428fc315b30b1d6fd, type: 2}
   m_SchemaSet:

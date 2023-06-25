@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2015822250919097104}
-  - component: {fileID: 2015822250919097105}
   - component: {fileID: 2015822250919097106}
   m_Layer: 0
   m_Name: Chest
@@ -36,19 +35,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -39.271, z: 0}
---- !u!114 &2015822250919097105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015822250919097119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0459098d98bee14ba29e8484b1e1c55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  content: {fileID: 3172347458423465633}
 --- !u!65 &2015822250919097106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -362,12 +348,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 409344b30d6349346b4d4b99ec1ee193, type: 3}
---- !u!1 &3172347458423465633 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5278331754502252905, guid: 409344b30d6349346b4d4b99ec1ee193,
-    type: 3}
-  m_PrefabInstance: {fileID: 7297546597749280712}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3172347458423465638 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5278331754502252910, guid: 409344b30d6349346b4d4b99ec1ee193,

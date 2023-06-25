@@ -13,9 +13,11 @@ public class QuestGiver : MonoBehaviour
     [SerializeField] Material unavailableQuestMaterial;
 
     public static bool lockedSteps { get; set; }
+    public bool updateMarker;
 
     private void Awake()
     {
+        updateMarker = true;
         StartCoroutine(SetupMarker());
     }
 
@@ -61,11 +63,12 @@ public class QuestGiver : MonoBehaviour
         }
     }
 
+    public bool disableMarker = false;
     private IEnumerator SetupMarker()
     {
         while (true)
         {
-            if (isQuestActive && questMarker.activeSelf)
+            if (disableMarker || (isQuestActive && questMarker.activeSelf))
             {
                 questMarker.SetActive(false);
             }
