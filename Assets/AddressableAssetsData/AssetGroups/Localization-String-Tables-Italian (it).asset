@@ -23,90 +23,105 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d8c316841d7497345818e82c37ab68eb
     m_Address: HubMenu_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 89dd459ad654d4949b96d557e10f8557
     m_Address: Quests - HelloWorld_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6b742be0dd4e49642aebd60cd9f04e2d
     m_Address: GameMenu_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7b4a2a26c9be29a4fa309a82a8f71c4d
     m_Address: QuestData_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 420fa7ff24b255c4bb2f393c4086c756
     m_Address: DatacardLabels_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1189e81d908e3f24f9d22b0d982b2589
     m_Address: Quests - A matter of mass_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 09735b893eacdaa49b4f2d302c447c9b
     m_Address: FormulaSheetStrings_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fdb9765c07cab8946910c0d139b585c8
     m_Address: Quests - More cubes more data_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 01a4db4c690a10344b5913d02ce17359
     m_Address: Concepts Text_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cbdb26ac685d0e74b8b3acbc8b3c9f83
     m_Address: Quests - The untouchable_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9a5a759b2ce5e624983b0b4fd90da79e
     m_Address: Quest - Alternative Sports_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a907be6f132ed3b4a91c18994b08e696
     m_Address: Materials_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b4012a0d9825d8a41817e335ee55171c
     m_Address: Quest - We All Lift Together_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 150eb3bfecb483b47ae876d6497681c0
     m_Address: Misc_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: f041d85c8297db8428fc315b30b1d6fd, type: 2}
   m_SchemaSet:
