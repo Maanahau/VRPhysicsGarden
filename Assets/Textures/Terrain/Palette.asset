@@ -10,7 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c509dbaa7b6f416409e3195321a2187e, type: 3}
-  m_Name: New Layer Palette
+  m_Name: Palette
   m_EditorClassIdentifier: 
   PaletteLayers:
+  - {fileID: 8574412962073106934, guid: 8b6de892b01431d4d9331df9a93f9db4, type: 2}
+  - {fileID: 8574412962073106934, guid: e66826b49cd0c48408432b35985eb8c2, type: 2}
   - {fileID: 8574412962073106934, guid: c60374c79f95e594cac9da1f0f0a60fd, type: 2}
+  - {fileID: 8574412962073106934, guid: a3680e75d491e8547841541172cf108d, type: 2}
